@@ -1,5 +1,9 @@
 #App Created by Rutwik Deshmukh
 
+#To install streamlit use the command: "pip install streamlit"
+#To install translate use the command: "pip install translate"
+#To Run the code use the command: "streamlit run translatorapp.py"
+
 
 #Importing Relevant Libraries
 import streamlit as st
