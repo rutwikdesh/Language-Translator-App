@@ -1,11 +1,12 @@
 #App Created by Rutwik Deshmukh
 
-# I used streamlit to create a WebApp using Python
-# This app basically a simple text translator
-# To run this app type the command "streamlit run translatorapp.py"
+
+#Importing Relevant Libraries
 import streamlit as st
 from translate import Translator
 
+
+#Title
 st.write('''
     # Language Translator using Python
     '''
@@ -27,6 +28,7 @@ languages = ['Arabic', 'Belarusian', 'Chewa', 'Chinese',  'Croatian', 'Czech','D
             'Swedish', 'Thai', 'Turkish', 'Ukrainian', 'Vietnamese', 'Welsh',]
 
 
+#Creating SelectBoxes
 from_= st.selectbox("Convert from Language",languages)
 to_ = st.selectbox("Convert to Language",languages)
 
@@ -41,8 +43,3 @@ try:
 
 except:
     st.exception("Enter valid Text")
-
-
-# To create the list of languages supported by translate package used 
-# "https://en.wikipedia.org/wiki/Google_Translate#:~:text=The%20Google%20Translate%20app%20for,
-# in%20%22augmented%20reality%20mode%22." website
