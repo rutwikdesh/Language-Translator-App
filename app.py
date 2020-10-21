@@ -29,7 +29,7 @@ languages = ['Arabic', 'Belarusian', 'Chewa', 'Chinese',  'Croatian', 'Czech','D
             'Estonian', 'Finnish', 'French', 'German', 'Greek', 'Hebrew', 'Hindi', 'Hungarian', 'Indonesian',
             'Italian', 'Japanese', 'Javanese', 'Korean', 'Latvian', 'Lithuanian','Malay', 'Maltese', 'Norwegian',
             'Persian', 'Polish', 'Portuguese',  'Romanian', 'Russian', 'Slovenian','Spanish',
-            'Swedish', 'Thai', 'Turkish', 'Ukrainian', 'Vietnamese', 'Welsh',]
+            'Swedish', 'Thai', 'Turkish', 'Ukrainian', 'Vietnamese', 'Welsh']
 
 
 #Creating SelectBoxes
