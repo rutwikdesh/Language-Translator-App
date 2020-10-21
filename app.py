@@ -2,7 +2,7 @@
 
 #To install streamlit use the command: "pip install streamlit"
 #To install translate use the command: "pip install translate"
-#To Run the code use the command: "streamlit run translatorapp.py"
+#To Run the code use the command: "streamlit run app.py"
 
 
 #Importing Relevant Libraries
